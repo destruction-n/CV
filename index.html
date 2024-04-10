@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>CV</title>
+    <style>
+        body {
+            font-family: Montserrat, Helvetica, sans-serif;
+        }
+        
+        h3{
+            margin: 10px 0;
+        }
+
+        a {
+            color: black
+        }
+
+        .wrapper {
+            display: flex;
+            max-width: 750px;
+            margin: 0 auto;
+            padding: 20px 10px;
+        }
+
+        .wrapper-info {
+            min-width: 200px;
+            margin-right: 50px;
+        }
+
+        .wrapper-about {
+            max-width: 490px;
+        }
+
+        .header {
+            font-size: 32px;
+        }
+        .header-2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .wrapper img {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding: 0;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .wrapper-projects {
+            display: flex;
+        }
+
+        @media screen and (max-width: 480px) {
+            .wrapper {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrapper-info">
+            <img src="me.jpg" alt="me">
+            <div class="header">Alexander <br> Sidorskiy</div>
+            <p> <b>Contact info:</b> <br><br>
+                E-mail: <a href="mailto:makeenko.005@gmail.com">s.sidorsky20044@gmail.com</a> <br>
+                Git-hub: <a href="https://www.github.com/jetie000">github.com/destruction-n</a>
+            </p>
+            <div class="header"> My skills</div>
+            <h3>Languages</h3>
+            <ul>
+                <li>HTML, CSS</li>
+                <li>Javascript, Typescript</li>
+                <li>basic Java</li>
+            </ul>
+            <h3>Technologies</h3>
+            <ul>
+                <li>React</li>
+                <li>Redux Toolkit, RTK Query, React Context, Axios, Thunk</li>
+                <li>Next.js</li>
+                <li>Cypress, Jest, React Testing Library, Storybook</li>
+                <li>SASS</li>
+                <li>Material UI, Bootstrap</li>
+            </ul>
+            <div class="header">Languages</div>
+            <p>English - B1<br> Russian - native</p>
+        </div>
+        <div class="wrapper-about">
+            <div class="header">About me</div>
+            <p>I'm 20 years old BSUIR student. My goal is to continue learning web development, because i feel inspired
+                while creating something new.
+                Also I have good soft skills, that can help me to work in team and make my dream come true.</p>
+            <p>I learned basics of programming at my university in Java (OOP, Spring, Spring Boot... ).
+                Also i learned Computer Networks and Data Bases, that helped me a lot.
+                With that knowledge i started learn new technologies.
+
+            </p>
+            <div class="header">Education</div>
+            <p>Belarusian State University of Informatics and Radioelectronics, <br>
+                Faculty of Computer Design, <br>
+                Information systems and technologies (in business-management) <br>
+                (third year)
+            </p>
+            <div class="header">My projects</div>
+            <p>There is my projects repositories links. Just open them to see ReadMe with all info about projects.</p>
+            <p>
+                Web App (Kinopoisk) <br> 
+                <b>Frontend:</b> React, Redux, Typescript, Axios, Eslint, React-Router-Dom, Thunk, Material UI<br>
+                <a href="https://github.com/destruction-n/Project-1/tree/main/pixema">Project Frontend</a> <br>
+            </p>
+            <p>
+                Fullstack Web App (Cinema) <br> 
+                <b>Frontend:</b>Bootstrap<br>
+                <b>Backend:</b> Spring Boot, MySQL <br>
+                <a href="https://github.com/destruction-n/client-server-spring-cinema">Project</a> <br>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
